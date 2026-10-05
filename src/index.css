@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+.font-accessible {
+  font-family: 'Lexend', 'Plus Jakarta Sans', sans-serif !important;
+  letter-spacing: 0.02em;
+  word-spacing: 0.05em;
+  line-height: 1.7;
+}
+
+/* High Contrast mode utilities */
+.high-contrast-mode {
+  --tw-bg-opacity: 1;
+  background-color: #000000 !important;
+  color: #ffff00 !important;
+}
+
+.high-contrast-mode button,
+.high-contrast-mode a,
+.high-contrast-mode input,
+.high-contrast-mode select,
+.high-contrast-mode textarea {
+  border-color: #ffff00 !important;
+  color: #ffff00 !important;
+}
+
+/* Keyboard focus rings for WCAG 2.2 AA compliance */
+*:focus-visible {
+  outline: 3px solid #3b82f6 !important;
+  outline-offset: 3px !important;
+}
+
+/* Hide scrollbar while keeping function */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

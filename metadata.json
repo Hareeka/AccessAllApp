@@ -1,0 +1,6 @@
+{
+  "name": "AccessAll – Disability Assistance Platform",
+  "description": "Unified AI-powered universal disability assistance platform for vision, hearing, speech, health, emergency SOS, caregiver monitoring, accessible education, and community navigation.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
